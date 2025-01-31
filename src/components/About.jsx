@@ -1,4 +1,4 @@
-const About = () => {
+function About() {
   return (
     <section className="w-full sm:w-[70%] mx-auto p-6 bg-white shadow-md rounded-lg mt-4">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">About Me</h2>
@@ -27,6 +27,6 @@ const About = () => {
       </ul>
     </section>
   );
-};
+}
 
 export default About;
